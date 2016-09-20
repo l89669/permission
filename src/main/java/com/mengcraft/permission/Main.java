@@ -54,11 +54,11 @@ public class Main extends JavaPlugin {
         getCommand("permission").setExecutor(commander);
         getServer().getServicesManager().register(Permission.class, commander, this, ServicePriority.Normal);
 
-        String[] author = {
-                ChatColor.GREEN + "梦梦家高性能服务器出租店",
-                ChatColor.GREEN + "shop105595113.taobao.com"
-        };
-        getServer().getConsoleSender().sendMessage(author);
+//        String[] author = {
+//                ChatColor.GREEN + "梦梦家高性能服务器出租店",
+//                ChatColor.GREEN + "shop105595113.taobao.com"
+//        };
+//        getServer().getConsoleSender().sendMessage(author);
     }
 
     public void execute(Runnable task, boolean b) {
